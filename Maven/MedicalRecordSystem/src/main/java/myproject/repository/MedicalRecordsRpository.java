@@ -1,4 +1,4 @@
-package myproject.repositories;
+package myproject.repository;
 
 import myproject.model.MedicalRecord;
 import org.springframework.data.mongodb.repository.MongoRepository;

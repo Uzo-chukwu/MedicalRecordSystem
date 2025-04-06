@@ -1,4 +1,12 @@
-package myproject.models;
+package myproject.model;
 
-public class Patient {
+import lombok.*;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Patient extends User {
+    private MedicalRecord medicalRecord;
 }

@@ -1,4 +1,4 @@
-package myproject.repositories;
+package myproject.repository;
 
 import myproject.model.Appointment;
 import org.springframework.data.mongodb.repository.MongoRepository;
