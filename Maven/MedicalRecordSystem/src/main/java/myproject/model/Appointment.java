@@ -1,4 +1,4 @@
 package myproject.models;
 
-public class TreatmentPlan {
+public class Appointment {
 }

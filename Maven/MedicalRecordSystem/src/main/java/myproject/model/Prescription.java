@@ -1,4 +1,4 @@
-package myproject.models;
+package myproject.model;
 
 public class Presciption {
 }
