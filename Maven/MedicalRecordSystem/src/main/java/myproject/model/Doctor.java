@@ -9,4 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 public class Doctor extends User {
     private String specialty;
+
+    public void setRole(String doctor) {
+    }
 }
